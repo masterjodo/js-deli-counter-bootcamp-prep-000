@@ -11,9 +11,9 @@ function nowServing (deliLine) {
   }
 }
 
+var aline = [];
 function currentLine(deliLine) {
   for (let i = 0; i < deliLine.length; i++) {
-    aline = [];
     aline.push(" " + [i+1] + ". " + deliLine[i]);
   }
   if (deliLine.length === 0) {
