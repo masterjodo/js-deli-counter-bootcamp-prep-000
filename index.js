@@ -13,7 +13,7 @@ function nowServing (deliLine) {
 
 function currentLine(deliLine) {
   for (let i = 0; i < deliLine.length; i++) {
-    var aline = [];
+    aline = [];
     aline.push(" " + [i+1] + ". " + deliLine[i]);
   }
   if (deliLine.length === 0) {
